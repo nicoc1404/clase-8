@@ -114,11 +114,11 @@
                 console.log(data);
 
                 data.forEach((a)=>{
-                    if (a.info.dimorfism.value == "No"){
+                    
                      if (a.info.names.latin.includes("phaeus")){
                     grid.innerHTML += `<div class="grid-item"><img src="${a.image.url.replace("http://www.buscaves.cl/","https://buscaves.cl/")}"/><p>${a.names.spanish}</p><small>${a.names.latin}</small></div>`
                     }
-                    }
+                    
                 })
             
             }
